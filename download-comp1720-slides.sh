@@ -22,4 +22,5 @@
 ./reveal-to-pdf.sh https://cs.anu.edu.au/courses/comp1720/lectures/week-12/ 12-creativeml
 
 mv *.pdf comp1720-lecturenotes/.
-./upload-to-cloudstor.sh
+rclone copy --progress --transfers 2 comp1720-lecturenotes/ CloudStor:/comp1720-lecturenotes
+
