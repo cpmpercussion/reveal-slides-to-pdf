@@ -61,6 +61,3 @@ while [ $week -le $till ]; do
 
   week=$(( week + 1 ))
 done
-
-echo "convert-slides: copy files over to varese.anu.edu.au"
-rsync -auv *.pdf comp2300@varese.anu.edu.au:public_html/slides-pdf/2020/
