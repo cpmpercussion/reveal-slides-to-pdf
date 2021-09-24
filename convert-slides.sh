@@ -1,4 +1,5 @@
 #!/bin/sh
+# Original Convert Slides script, not used anymore but kept for reference.
 # Author: Kunal Sareen
 week=
 till=
