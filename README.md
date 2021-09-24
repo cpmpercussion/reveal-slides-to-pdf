@@ -8,6 +8,8 @@ Uses [decktape](https://github.com/astefanutti/decktape) and Ghostscript.
 
 The PDF exports aren't _amazing_ compared to the original decks and aren't accessible in terms of being flat images, but allow note taking where required.
 
+N.B.: there are two different approaches in this repo, `convert-slides.sh` and `reveal-to-pdf.sh`, this is because of reasons. `reveal-to-pdf.sh` is the preferred method as of 2021.
+
 ## Install
 
 Just need to install decktape:
