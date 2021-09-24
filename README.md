@@ -4,11 +4,26 @@ This is a reveal.js slide deck to pdf converter script developed for use in univ
 
 The idea is to save all the slide decks for a course as PDFs in bulk and release these to students. Some students want to use PDFs as a learning tool (for taking notes etc) which is a legitimate and worthy thing.
 
+Uses [decktape](https://github.com/astefanutti/decktape) and Ghostscript.
+
 The PDF exports aren't _amazing_ compared to the original decks and aren't accessible in terms of being flat images, but allow note taking where required.
 
 ## Install
 
+Just need to install decktape:
+
+```
+$ npm install decktape
+```
+
 ## Use
+
+```
+$ ./reveal-to-pdf.sh https://url-of-slides.com/presentation/ name-of-pdf.pdf
+```
+
+Other scripts uploaded to document use-cases in my classes.
+
 
 ## Tricks/Issues
 
