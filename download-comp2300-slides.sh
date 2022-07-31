@@ -1,5 +1,6 @@
 #!/bin/bash
 
+./reveal-to-pdf.sh https://cs.anu.edu.au/courses/comp2300/lectures/week-0/ 0-introduction
 ./reveal-to-pdf.sh https://cs.anu.edu.au/courses/comp2300/lectures/week-1/ 1-digital-logic 
 ./reveal-to-pdf.sh https://cs.anu.edu.au/courses/comp2300/lectures/week-2/ 2-ALU-operations
 ./reveal-to-pdf.sh https://cs.anu.edu.au/courses/comp2300/lectures/week-3/ 3-memory-operations
@@ -13,7 +14,7 @@
 ./reveal-to-pdf.sh https://cs.anu.edu.au/courses/comp2300/lectures/week-11/ 11-architecture
 ./reveal-to-pdf.sh https://cs.anu.edu.au/courses/comp2300/lectures/week-12/ 12-review
 
-mkdir -p comp2300-lecturenotes
+# mkdir -p comp2300-lecturenotes
 mv *.pdf comp2300-lecturenotes/.
 rclone copy --progress --transfers 2 comp2300-lecturenotes/ CloudStor:/comp2300-lecturenotes
 
